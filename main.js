@@ -19,8 +19,11 @@ function new_image(get_image)
 		top:block_y,
 		left:block_x
 	})
+	canvas.add(block_image_object)
 })
+
 }
+
 
 window.addEventListener("keydown", my_keydown);
 
@@ -31,7 +34,7 @@ console.log(keyPressed);
 
 	if(keyPressed == "82") 
 	{
-		block_x=50;
+		block_x=30;
 		new_image("rr.jpg");
 	}
 	
